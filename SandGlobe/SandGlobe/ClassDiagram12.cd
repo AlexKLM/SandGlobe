@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bottle" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAABhAAAACAgA=</HashCode>
+      <FileName>Bottle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camera" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARgCAAIAgCAEQgCAQAAQBQAAAAAAAAAgAIQAAAAABAA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DxApp">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIEEoNAggBIAIwgQAEBJEQARAAgAAEKCABAAAKQIAQ=</HashCode>
+      <FileName>DxApp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fire_Particles" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Fire_Particles.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fog_Particles" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAFAEAAEAAAAAkACAIQAAABABAAAAAAA=</HashCode>
+      <FileName>Fog_Particles.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Globe" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAgABgAEAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Globe.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Globe_Base" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAABAAAABAAAAAAAAAAAAAAAAAAAABAEgAAAAAA=</HashCode>
+      <FileName>Globe_Base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Island">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAACAAAAAAQAAAAAAAQAAAAAAAAEAAAABgAAAAAAAE=</HashCode>
+      <FileName>Island.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Leaf" Collapsed="true">
+    <Position X="21.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAABAgAAASgAAEAAAoAKgIAAAAAAAAACCABEAAA=</HashCode>
+      <FileName>Leaf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="leaf_generator" Collapsed="true">
+    <Position X="23" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYAAAAIAAAAggIAAAAAAAAAAAAAAAQAAAgAAAAAA=</HashCode>
+      <FileName>leaf_generator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Leaf_manager" Collapsed="true">
+    <Position X="24.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAAQAAngCADAQQgpAECIAIMBAEAIQAAGBkwAACMAAA=</HashCode>
+      <FileName>Leaf_manager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="leaf_trunk" Collapsed="true">
+    <Position X="26.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAJAQBAAkgSBSgAEBEAJE5EhAEEAAAASBFgBBAVQAM=</HashCode>
+      <FileName>leaf_trunk.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyApp">
+    <Position X="5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAoEIAIAAgAEEAAACAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyApp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OBJLoader" Collapsed="true">
+    <Position X="28.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIgAAIAAAAAAAAAQAEAAAAAQAAAAAAAABBAAAEA=</HashCode>
+      <FileName>OBJLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Particle" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAwgiCAMiCJEKBQEAClicEAmDHJEIQgACDCBBAACAHA=</HashCode>
+      <FileName>Particle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Particle_Manager" Collapsed="true">
+    <Position X="19.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAIAAEgAAAAAFAEAQggIAEEBABAAAEAqQAAhBAIAAA=</HashCode>
+      <FileName>Particle_Manager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scene_manager" Collapsed="true">
+    <Position X="21.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kIReRAaygEnTBRBRhAFX5kQgVLgDG0KZCJMACQOWBAg=</HashCode>
+      <FileName>Scene_manager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scene_object" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Scene_object::object_buffer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Scene_object.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIAAAAYAEAkAICgQKgMSYEAmBEMBEEkACJAQREIRRQA=</HashCode>
+      <FileName>Scene_object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sea" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAABAAACEGAAAAAEAAAAAAAABACAAAEAAA=</HashCode>
+      <FileName>Sea.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="shaders" Collapsed="true">
+    <Position X="23" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAAAACAAACAAAgAAgAAATwgAABAEAACAACIUAAAAA=</HashCode>
+      <FileName>shaders.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shape_Maker" Collapsed="true">
+    <Position X="24.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAQAAEAAAE=</HashCode>
+      <FileName>Shape_Maker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sun" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAACAEAAAAAAAAAAAAAABBAAAAEAAQ=</HashCode>
+      <FileName>Sun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="surface" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAwFIAIAEAAAAAACCAQAAAgAEJAAAAgAABBMgQAEAAA=</HashCode>
+      <FileName>surface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tree" Collapsed="true">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAAIAgEISAAAAgAAAFAAAgIAAEIACABhAQBAAAAI=</HashCode>
+      <FileName>tree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Water_Particles" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Water_Particles.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ShaderConstants" Collapsed="true">
+    <Position X="23" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyApp.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bottle_buff" Collapsed="true">
+    <Position X="23" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAACAAAAAAAAAEAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bottle.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PVdata" Collapsed="true">
+    <Position X="26.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Fog_Particles.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cal_cBuffer" Collapsed="true">
+    <Position X="28.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAgAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Shadow_cBuffer" Collapsed="true">
+    <Position X="24.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAIEAAAAAAAAAACAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="timeBuffers" Collapsed="true">
+    <Position X="21.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAABAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="render_cBuffer" Collapsed="true">
+    <Position X="28.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Season" Collapsed="true">
+    <Position X="21.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAIAAgAAgAIAAAAAAAACAgAABBAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="particle_Vertex" Collapsed="true">
+    <Position X="21.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAIAAAAAAAAAAAQAAAAAEAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vertex" Collapsed="true">
+    <Position X="28.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAIAgAAAAAAACgAAAAAgAAAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ambientlight" Collapsed="true">
+    <Position X="19.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAAAAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="directionlight" Collapsed="true">
+    <Position X="23" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="pointlight" Collapsed="true">
+    <Position X="24.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAABAQAgAAAAAAAAAAAMAQCAAAAAIACAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="spotlight" Collapsed="true">
+    <Position X="26.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEAIAAAAAAAAAAAAAAAAAJAAAAAAAAAAQAgAAAACAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Material" Collapsed="true">
+    <Position X="19.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAgAAgAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="config_data" Collapsed="true">
+    <Position X="19.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgBAAAAAAAgAAAAgIAAAAAAAEQAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="depth_states" Collapsed="true">
+    <Position X="21.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="blend_states" Collapsed="true">
+    <Position X="21.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="instanceData" Collapsed="true">
+    <Position X="24.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BufferList" Collapsed="true">
+    <Position X="24.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAEAAAAAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vertex_index_buffer" Collapsed="true">
+    <Position X="19.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACEA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="island_buff" Collapsed="true">
+    <Position X="26.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAACAAAAAAAACEAAIEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Island.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="leaf_buff" Collapsed="true">
+    <Position X="28.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAAAAAA=</HashCode>
+      <FileName>leaf_trunk.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tree_buffer" Collapsed="true">
+    <Position X="24.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>leaf_trunk.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CacheEntry" Collapsed="true">
+    <Position X="26.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>OBJLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="plightbuff" Collapsed="true">
+    <Position X="23" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sea.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Sea_buff" Collapsed="true">
+    <Position X="19.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAgAEAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sea.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="sun_buff" Collapsed="true">
+    <Position X="28.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAACAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sun.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Surface_buff" Collapsed="true">
+    <Position X="19.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAggAAAAAEgAAAgAAAAAAAQA=</HashCode>
+      <FileName>surface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tree_state" Collapsed="true">
+    <Position X="26.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAACAAAABAAAAAAAAAIAAAA=</HashCode>
+      <FileName>tree.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tree_buff" Collapsed="true">
+    <Position X="23" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAACAAAAAAAAAEAAAEAAAAAAAAAAABAA=</HashCode>
+      <FileName>tree.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

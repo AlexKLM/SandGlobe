@@ -1,0 +1,19 @@
+// Config for sandglobe
+
+// positions
+
+GlobePos 0 0 0
+BottlePos -0.2 0.8 -0.3
+IslandPos 0 0 0
+BasePos 0 -0.8 0
+SeaPos 0 0 0
+SunPos 4 0 0 
+TreePos 0 0 0
+Light1Pos 0 6 0
+Light2Pos 5 5 0
+Light3Pos -5 5 -5
+Light4Pos 5 5 5
+
+
+//Others
+SimSpeed 1

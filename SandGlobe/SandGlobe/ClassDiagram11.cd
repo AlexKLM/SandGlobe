@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Camera" Collapsed="true">
+    <Position X="11.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgCAAIAACAEAACAQAAQAQAAEAAAAAAAAIQAAAAABAA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DxApp" Collapsed="true">
+    <Position X="2.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIEEgNAggBIAIwAQAEBIAAARAAAAAAKCABAAAKQIAQ=</HashCode>
+      <FileName>DxApp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Globe">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAgABAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Globe.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyApp">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABDACAQAAgEKAIAgAAUEAAAikAAIAsAAAQAAAAAgABg=</HashCode>
+      <FileName>MyApp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scene_object" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAgwAAEQIAACBAIAGAAACBBAAAAEBAA=</HashCode>
+      <FileName>Scene_object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="shaders">
+    <Position X="13.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAACAAAgAAEAAASwgAABAEAACAAAQQAQAAA=</HashCode>
+      <FileName>shaders.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shape_Maker" Collapsed="true">
+    <Position X="11" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAQAAEAAAE=</HashCode>
+      <FileName>Shape_Maker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Globe_Base" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAABAAAABAAAAAAAAAAAAAAAAAAAABAEgAAAAAA=</HashCode>
+      <FileName>Globe_Base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Island" Collapsed="true">
+    <Position X="9.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAEAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Island.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OBJLoader" Collapsed="true">
+    <Position X="13.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAQAAAAAAAQAAAAAAAABBAAAEA=</HashCode>
+      <FileName>OBJLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sea" Collapsed="true">
+    <Position X="4.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAACAAGAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sea.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ShaderConstants" Collapsed="true">
+    <Position X="13.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyApp.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vertex" Collapsed="true">
+    <Position X="9.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAIAgAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BufferList" Collapsed="true">
+    <Position X="11.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAEAAAAAAA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="vertex_index_buffer" Collapsed="true">
+    <Position X="11.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACEA=</HashCode>
+      <FileName>Global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CacheEntry" Collapsed="true">
+    <Position X="11.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>OBJLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

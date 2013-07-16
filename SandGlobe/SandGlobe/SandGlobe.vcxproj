@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1B1D6308-1A8A-4B2A-9E63-00D2E0B8A9A9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SandGlobe</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <ExecutablePath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Utilities\bin\x86;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Samples\C++\Effects11\Inc;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <ExecutablePath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Utilities\bin\x86;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Samples\C++\Effects11\Inc;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Bottle.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="DxApp.cpp" />
+    <ClCompile Include="Fire_Particles.cpp" />
+    <ClCompile Include="Fog_Particles.cpp" />
+    <ClCompile Include="Globe.cpp" />
+    <ClCompile Include="Globe_Base.cpp" />
+    <ClCompile Include="Island.cpp" />
+    <ClCompile Include="Leaf.cpp" />
+    <ClCompile Include="leaf_generator.cpp" />
+    <ClCompile Include="Leaf_manager.cpp" />
+    <ClCompile Include="leaf_trunk.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MyApp.cpp" />
+    <ClCompile Include="OBJLoader.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="Particle_Manager.cpp" />
+    <ClCompile Include="Scene_manager.cpp" />
+    <ClCompile Include="Scene_object.cpp" />
+    <ClCompile Include="Sea.cpp" />
+    <ClCompile Include="shaders.cpp" />
+    <ClCompile Include="Shape_Maker.cpp" />
+    <ClCompile Include="Sun.cpp" />
+    <ClCompile Include="surface.cpp" />
+    <ClCompile Include="tree.cpp" />
+    <ClCompile Include="Water_Particles.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bottle.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="DxApp.h" />
+    <ClInclude Include="Fire_Particles.h" />
+    <ClInclude Include="Fog_Particles.h" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="Globe.h" />
+    <ClInclude Include="Globe_Base.h" />
+    <ClInclude Include="Island.h" />
+    <ClInclude Include="Leaf.h" />
+    <ClInclude Include="leaf_generator.h" />
+    <ClInclude Include="Leaf_manager.h" />
+    <ClInclude Include="leaf_trunk.h" />
+    <ClInclude Include="MyApp.h" />
+    <ClInclude Include="OBJLoader.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="Particle_Manager.h" />
+    <ClInclude Include="Scene_manager.h" />
+    <ClInclude Include="Scene_object.h" />
+    <ClInclude Include="Sea.h" />
+    <ClInclude Include="shaders.h" />
+    <ClInclude Include="Shape_Maker.h" />
+    <ClInclude Include="Sun.h" />
+    <ClInclude Include="surface.h" />
+    <ClInclude Include="tree.h" />
+    <ClInclude Include="Water_Particles.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Globe_Effect.fx">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc /Fc "fx/%(Filename).cod" /Od /Zi /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fx/%(Filename).fxo; fx/%(Filename).cod</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc  /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fx/%(Filename).fxo</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Effects11.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Base_Effect.fx">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc /Fc "fx/%(Filename).cod" /Od /Zi /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fx/%(Filename).fxo; fx/%(Filename).cod</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc  /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fx/%(Filename).fxo</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="Bottle_Effect.fx">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc /Fc "fx/%(Filename).cod" /Od /Zi /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fx/%(Filename).fxo; fx/%(Filename).cod</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc  /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fx/%(Filename).fxo</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="Fog_P_Effect.fx">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc /Fc "fx/%(Filename).cod" /Od /Zi /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fx/%(Filename).fxo; fx/%(Filename).cod</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc  /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fx/%(Filename).fxo</Outputs>
+    </CustomBuild>
+    <None Include="ClassDiagram11.cd" />
+    <CustomBuild Include="Sea_Effect.fx">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc /Fc "fx/%(Filename).cod" /Od /Zi /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fx/%(Filename).fxo; fx/%(Filename).cod</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc  /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fx/%(Filename).fxo</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="Island_Effect.fx">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc /Fc "fx/%(Filename).cod" /Od /Zi /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fx/%(Filename).fxo; fx/%(Filename).cod</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc  /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fx/%(Filename).fxo</Outputs>
+    </CustomBuild>
+    <None Include="ClassDiagram12.cd" />
+    <None Include="design.cd" />
+    <CustomBuild Include="Tree_Effect.fx">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc /Fc "fx/%(Filename).cod" /Od /Zi /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fx/%(Filename).fxo; fx/%(Filename).cod</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc  /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fx/%(Filename).fxo</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="Sun_Effect.fx">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc /Fc "fx/%(Filename).cod" /Od /Zi /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fx/%(Filename).fxo; fx/%(Filename).cod</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc  /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fx/%(Filename).fxo</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="SeaSurface_Effect.fx">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc /Fc "fx/%(Filename).cod" /Od /Zi /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fx/%(Filename).fxo; fx/%(Filename).cod</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc  /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fx/%(Filename).fxo</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="Leave_Effect.fx">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc /Fc "fx/%(Filename).cod" /Od /Zi /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fx/%(Filename).fxo; fx/%(Filename).cod</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc  /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fx/%(Filename).fxo</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="Trunk_Effect.fx">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc /Fc "fx/%(Filename).cod" /Od /Zi /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fx/%(Filename).fxo; fx/%(Filename).cod</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc  /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fx/%(Filename).fxo</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="Water_P_Effect.fx">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc /Fc "fx/%(Filename).cod" /Od /Zi /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fx/%(Filename).fxo; fx/%(Filename).cod</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc  /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fx/%(Filename).fxo</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="Fire_P_Effect.fx">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc /Fc "fx/%(Filename).cod" /Od /Zi /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fx/%(Filename).fxo; fx/%(Filename).cod</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc  /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fx/%(Filename).fxo</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="Shadow_map_gen.fx">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc /Fc "fx/%(Filename).cod" /Od /Zi /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fx/%(Filename).fxo; fx/%(Filename).cod</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc  /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fx/%(Filename).fxo</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="Sky_Effect.fx">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc /Fc "fx/%(Filename).cod" /Od /Zi /T fx_5_0 /Fo "fx/%(Filename).fxo" "%(FullPath)"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fx/%(Filename).fxo; fx/%(Filename).cod</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
